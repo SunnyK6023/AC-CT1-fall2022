@@ -1,0 +1,178 @@
+/* Reset */
+
+html
+
+body{
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+
+/* Nav */
+
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+}
+
+
+nav li{
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 2px rgba(255, 255, 255, 0.555);
+}
+
+nav li :hover {
+    background-color:gray;
+    border-width: 100%;
+    
+
+}
+
+nav li a {
+    color:rgb(0, 76, 70);
+    text-decoration: none;
+    
+}
+
+.no-btm-border {
+border-bottom: none;
+}
+
+
+.current{
+    font-style: italic;
+    font-weight: 700;
+}
+
+@media (min-width: 600px){
+    nav ul {
+        flex-direction: row;
+        justify-content: space-around;
+        text-align: center;
+    }
+    nav li{
+        text-align: center
+    }
+    nav li a {
+        color:rgb(53, 202, 75);
+        text-decoration: none;
+        
+    }
+}
+
+
+@media (min-width: 1200px){
+    header{
+        text-align: left;
+
+    }
+    nav ul {
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: space-around;
+        text-align: left;
+        padding: 96px ;
+        background-color:rgb(53, 202, 75)
+        
+}
+    nav li{
+        text-align: left
+        }
+    nav li a {
+        color:white;
+        text-decoration: none;
+            
+        }
+   
+}
+
+
+.no-btm-border {
+    border-bottom: none
+}
+
+#homelink{
+    padding: 12px;
+    
+    order: 1;
+}
+
+#bloglink{
+    padding: 12px;
+    
+    order: 2;
+}
+
+#connectlink{
+    padding: 12px;
+    
+    order: 3;
+}
+
+#portfoilolink{
+    padding: 12px;
+    
+    order: 4;
+}
+
+#aboutlink{
+    padding: 12px;
+    
+    order: 5;
+}
+
+/* Main */
+
+.no-btm-border {
+    border-bottom: none
+}
+
+#homelink{
+    padding: 12px;
+    
+    order: 1;
+}
+
+#bloglink{
+    padding: 12px;
+    
+    order: 2;
+}
+
+#connectlink{
+    padding: 12px;
+    
+    order: 3;
+}
+
+
+/* Main */
+h1,h2 {
+    font-family: 'Cormorant', serif;
+}
+
+h1 {
+    font-weight: 300;
+    font-size: 64px;
+    text-align: center;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 32px;
+    text-align: center
+;
+}
