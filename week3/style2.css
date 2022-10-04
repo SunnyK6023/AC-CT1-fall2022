@@ -3,13 +3,13 @@ html {
 }
 * {
     margin: 0px;
-    padding: opx;
+    padding: 0px;
     list-style: none;
 }
 
 .main{
     display: block;
-    width: 60%;
+    width: 80%;
     padding: 10px;
     background-color: white;
     margin: auto;
@@ -21,21 +21,28 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
+    box-shadow: 3px 5px;
+    
 }
 
+
 .thumbs {
-    display: flex;
+    display:flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 1px 10px 5px lightgray;
+    flex-direction:initial;
+    justify-content: space-around;
+    padding: 50px;
+
 }
+
 
 .thumbs li {
     width: 12%;
     padding: 10px;
     background-color: white;
     margin: 1%;
-    box-shadow: 1px 10px 5px lightgray;
+    
 }
 
 .thumbs li img {
